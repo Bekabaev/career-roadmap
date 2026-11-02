@@ -17,7 +17,7 @@
      Recall matters more.
    - Slices: heating vs. non-heating season, hour, station, weekday.
    - Evaluation: time-based backtesting only, never random splits.
-   - Stack: Prefect, Postgres, DVC, MLflow, LightGBM, FastAPI, Docker,
+   - Stack: Airflow, Postgres, DVC, MLflow, LightGBM, FastAPI, Docker,
      GitHub Actions, Evidently.
 3. **Learning mode added to `ete_ml/CLAUDE.md`:**
    - I write the core code myself.

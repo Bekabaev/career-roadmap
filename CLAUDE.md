@@ -48,7 +48,7 @@ from open data (OpenAQ sensors + Open-Meteo weather). Baseline is persistence
 and a seasonal profile. Metrics: MAE per horizon, recall on hazardous hours.
 Slices: season (heating vs. non-heating), hour, station. The heating season
 gives real drift, which makes monitoring and retraining meaningful.
-- Scheduled hourly ingestion (Prefect or Airflow)
+- Scheduled hourly ingestion (Airflow)
 - DVC (data versioning) + MLflow (experiment tracking)
 - FastAPI model service in Docker
 - GitHub Actions CI/CD
